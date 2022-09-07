@@ -37,4 +37,22 @@ public class Student {
 	public void setStudentId(int studentId) {
 		this.studentId = studentId;
 	}
+	public class LastName
+
+	{
+
+		public static void main(String[] args) {
+
+			Student myInfo = new Student();
+			myInfo.setStudentId(2855);
+			myInfo.setName("Mohd Ifranul Hoque");
+			myInfo.setIntroduction("Hello Everyone!!");
+			System.out.println(myInfo.getIntroduction() + "\nMy name is " + myInfo.getName()
+					+ " The last 4 digit of my student Id is " + myInfo.getStudentId());
+
+		}
+
+	}
 }
+
+
